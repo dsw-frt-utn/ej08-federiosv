@@ -4,9 +4,13 @@
     {
         static void Main(string[] args)
         {
-            ProductHelper pH = new ProductHelper();
+            /*ProductHelper pH = new ProductHelper();
             string prueba1 = pH.ObtenerEtiquetaProducto(123456789, "Producto de prueba", 100);
-            Console.WriteLine(prueba1);
+            Console.WriteLine(prueba1);*/
+
+            Problema2 prob2 = new Problema2();
+            string prueba2 = prob2.CrearResumenVenta(123456789, "Producto de prueba", 50, 1000);
+            Console.WriteLine(prueba2);
         }
     }
 }
