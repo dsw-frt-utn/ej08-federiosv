@@ -12,10 +12,17 @@
             string prueba2 = prob2.CrearResumenVenta(123456789, "Producto de prueba", 50, 1000);
             Console.WriteLine(prueba2);*/
 
-            Problema3 prob3 = new Problema3();
+            /*Problema3 prob3 = new Problema3();
             Product p = new Product("Producto de prueba");
             string prueba3 = prob3.CompararCopias(11, p);
-            Console.WriteLine(prueba3);
+            Console.WriteLine(prueba3);*/
+
+            Problema4 prob4 = new Problema4();
+            Console.WriteLine(prob4.CalcularPromedio(10, 8, 7));          
+            Console.WriteLine(prob4.CalcularPromedio(5, null, 6));      
+            Console.WriteLine(prob4.CalcularPromedio(null, null, 6));    
+            Console.WriteLine(prob4.CalcularPromedio(null, null, null));  
+            Console.WriteLine(prob4.CalcularPromedio(10, -2, 15));
         }
     }
 }
