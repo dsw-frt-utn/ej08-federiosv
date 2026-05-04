@@ -17,12 +17,18 @@
             string prueba3 = prob3.CompararCopias(11, p);
             Console.WriteLine(prueba3);*/
 
-            Problema4 prob4 = new Problema4();
+            /*Problema4 prob4 = new Problema4();
             Console.WriteLine(prob4.CalcularPromedio(10, 8, 7));          
             Console.WriteLine(prob4.CalcularPromedio(5, null, 6));      
             Console.WriteLine(prob4.CalcularPromedio(null, null, 6));    
             Console.WriteLine(prob4.CalcularPromedio(null, null, null));  
-            Console.WriteLine(prob4.CalcularPromedio(10, -2, 15));
+            Console.WriteLine(prob4.CalcularPromedio(10, -2, 15));*/
+
+            Problema5 prob5 = new Problema5();
+            Sale v1 = new RetailSale(1000);
+            Sale v2 = new WholesaleSale(1000);
+            Console.WriteLine(prob5.ObtenerImporteFinal(v1));
+            Console.WriteLine(prob5.ObtenerImporteFinal(v2));
         }
     }
 }
