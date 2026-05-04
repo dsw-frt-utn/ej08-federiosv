@@ -24,11 +24,15 @@
             Console.WriteLine(prob4.CalcularPromedio(null, null, null));  
             Console.WriteLine(prob4.CalcularPromedio(10, -2, 15));*/
 
-            Problema5 prob5 = new Problema5();
+            /*Problema5 prob5 = new Problema5();
             Sale v1 = new RetailSale(1000);
             Sale v2 = new WholesaleSale(1000);
             Console.WriteLine(prob5.ObtenerImporteFinal(v1));
-            Console.WriteLine(prob5.ObtenerImporteFinal(v2));
+            Console.WriteLine(prob5.ObtenerImporteFinal(v2));*/
+
+            Problema6 prob6 = new Problema6();
+            Console.WriteLine(prob6.NormalizarCodigoProducto(" ab 123 x "));
+            Console.WriteLine(prob6.NormalizarCodigoProducto(null));
         }
     }
 }
