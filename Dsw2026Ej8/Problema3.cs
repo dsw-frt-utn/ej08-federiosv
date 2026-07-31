@@ -11,7 +11,7 @@ namespace Dsw2026Ej8
             int copyValue = originalValue;
             copyValue++;
             Product copyProduct = product;
-            copyProduct.Description = "Descripcion modificada";
+            copyProduct.ModificarDescripcion("Descripcion modificada");
 
             return $"{originalValue}-{copyValue}-{copyProduct.Description}";
 

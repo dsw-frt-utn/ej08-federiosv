@@ -14,7 +14,13 @@ namespace Dsw2026Ej8
         }
 
         public string Description 
-        { get => _description ?? "No description"; set => _description = value; 
+        { get => _description ?? "No description"; 
+          set => _description = value; 
+        }
+
+        public void ModificarDescripcion(string description)
+        {
+            _description = description;
         }
     }
 }
